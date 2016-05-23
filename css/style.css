@@ -717,6 +717,7 @@ body {
 	position: relative;
 	border-radius: 5px 5px 0 0;
 	background: #f1f1f1;
+	transition: all 0.2s ease-in-out;
 }
 
 .catalog-item:hover .item-header {
@@ -791,11 +792,13 @@ body {
 	padding: 30px;
 	padding-bottom: 60px;
 	text-align: center;
-	display: none;
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
 }
 
 .catalog-item:hover .item-inner {
-	display: block;
+/*	display: block;*/
+	opacity: 1;
 }
 
 .item-inner .btn{
